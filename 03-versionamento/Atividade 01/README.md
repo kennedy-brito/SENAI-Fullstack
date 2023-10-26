@@ -48,7 +48,7 @@
 </BODY>
 </HTML>
 ``` 
-realizar seguinte alteração na linha h1 do arquivo da branch feature1:
+[X] realizar seguinte alteração na linha h1 do arquivo da branch feature1:
 ``` 
 <HTML>
 <HEAD><TITLE>ATIVIDADE DE VERSIONAMENTO</TITLE></HEAD>
@@ -57,5 +57,6 @@ realizar seguinte alteração na linha h1 do arquivo da branch feature1:
 </BODY>
 </HTML>
 ```
- realizar o merge da branch feature1 com a branch main;
-resolver os conflitos apresentados.
+[X] realizar o merge da branch feature1 com a branch main;
+
+[X] resolver os conflitos apresentados.
