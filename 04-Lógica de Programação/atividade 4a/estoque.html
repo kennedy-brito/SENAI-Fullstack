@@ -1,0 +1,32 @@
+
+<script>
+    let saldo = parseInt(prompt("saldo inicial de peças:" ));
+    let escolha;
+    do{
+        let opcao = parseInt(prompt("Escolha uma opcao: \n1. Compra\n2. Venda"));
+        let quantidade;
+
+        switch(opcao){
+            case 1:
+                quantidade = parseInt(prompt("Quantidade de peças compradas: "));
+                saldo = saldo + quantidade;
+                break;
+            case 2:
+                quantidade = parseInt(prompt("Quantidade de peças vendidas: "));
+                if(quantidade > saldo){
+                    document.write("saldo insuficiente <br>");
+                }else{
+                    saldo = saldo - quantidade;
+                }
+                break;
+        }
+        
+            
+        document.write("saldo: " + saldo + " <br>");
+        
+        escolha = prompt("Deseja continuar(S/N)?");
+    
+    } while(escolha != "N")
+    document.write("Sistema encerrado");
+
+</script>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg enable-background="new 0 0 3000 3000" version="1.1" viewBox="0 0 3000 3000" xmlns="http://www.w3.org/2000/svg">
+ <style type="text/css">.st0{fill:url(#e);} .st1{fill:url(#f);} .st2{fill:url(#g);} .st3{fill:url(#h);}</style>
+ <linearGradient id="e" x1="648.9" x2="2067.3" y1="1502" y2="1502" gradientTransform="matrix(1 0 0 -1 0 3002)" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#AA0005" offset="0"/>
+  <stop offset="1"/>
+ </linearGradient>
+ <polygon class="st0" points="648.9 793.4 1783.5 2206.6 2067.3 2206.6 930.1 793.4"/>
+ <linearGradient id="f" x1="1783.5" x2="2918.2" y1="1360.6" y2="1360.6" gradientTransform="matrix(1 0 0 -1 0 3002)" gradientUnits="userSpaceOnUse">
+  <stop offset="0"/>
+  <stop stop-color="#AA0005" offset="1"/>
+ </linearGradient>
+ <polygon class="st1" points="1783.5 2206.6 2632.8 1076.2 2918.2 1076.2 2067.3 2206.6"/>
+ <linearGradient id="g" x1="81.842" x2="1216.5" y1="1360.6" y2="1360.6" gradientTransform="matrix(1 0 0 -1 0 3002)" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#AA0005" offset="0"/>
+  <stop offset="1"/>
+ </linearGradient>
+ <polygon class="st2" points="1216.5 2206.6 365.6 1076.2 81.8 1076.2 930.1 2206.6"/>
+ <linearGradient id="h" x1="930.06" x2="2350.6" y1="1502" y2="1502" gradientTransform="matrix(1 0 0 -1 0 3002)" gradientUnits="userSpaceOnUse">
+  <stop offset="0"/>
+  <stop stop-color="#AA0005" offset="1"/>
+ </linearGradient>
+ <polygon class="st3" points="2067.3 793.4 930.1 2206.6 1216.5 2206.6 2350.6 793.4"/>
+</svg>
