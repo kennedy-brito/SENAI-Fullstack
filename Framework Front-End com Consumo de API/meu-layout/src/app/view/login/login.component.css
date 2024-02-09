@@ -1,0 +1,26 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+}
+
+#section-login{
+    height: 100%;
+    width: 400px;
+    
+    background-color: var(--container-color);
+    color: var(--font-color);
+    
+    border-radius: 10px;
+    border: var(--border-style);
+    padding: 10px 20px;
+}
+
+
+#section-login input::placeholder{
+    color: white;
+}
+#section-login input[type='password']::placeholder{
+    color: black;
+}

@@ -1,0 +1,114 @@
+mat-toolbar {
+    height: auto;
+    width: auto;
+    background-color:var(--container-color);
+    color: var(--font-color);
+}
+
+a img {
+    max-width: 210px;
+    max-height: 120px;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.left-side{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+}
+.example-menu {
+    display: inline-flex;
+    flex-direction: column;
+    min-width: 180px;
+    max-width: 280px;
+    background-color:var(--container-color);
+    padding: 6px 0;
+}
+
+.example-menu-item,
+.example-standalone-trigger {
+    background-color: inherit;
+    cursor: pointer;
+    border: var(--border-style);
+    border-radius: 10px;
+    color: var(--font-color);
+    
+    user-select: none;
+    min-width: 64px;
+    line-height: 36px;
+    padding: 0 16px;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.example-menu-item{
+    border: none;
+    outline: none;
+}
+.example-menu-item:hover {
+    border: none;
+    outline: none;
+}
+
+.example-menu-item:active {
+    border: none;
+    outline: none;
+}
+
+.example-standalone-item {
+    border: none;
+    outline: none;
+}
+
+.example-standalone-item:hover {
+    border: none;
+    outline: none;
+    
+}
+
+.example-standalone-item[aria-expanded='true'] {
+    border: none;
+    outline: none;
+    
+}
+
+.input-search {
+    border: var(--border-style);
+    border-radius: 10px;
+    width: fit-content;
+    height: 40px;
+    outline: none;
+    color: var(--font-color);
+    
+}
+.input-search input, input:focus, .input-search input::placeholder{
+    border: none;
+    height: max-content;
+    background-color: inherit;
+    outline: none;
+    color: var(--font-color);
+}
+
+.input-search button, .input-search button:focus{
+    border: none;
+    outline: none;
+}
+
+.login{
+    border: var(--border-style);
+    color: var(--font-color);
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: inherit;
+}

@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root{
+    --background-color: #0010A2;
+    --container-color: #212529;
+    --font-color: #fff;
+    --svg-filter-white: invert(99%) sepia(1%) saturate(2%) hue-rotate(242deg) brightness(108%) contrast(101%);
+    --border-style: 1px solid #fff;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color:var(--background-color);}

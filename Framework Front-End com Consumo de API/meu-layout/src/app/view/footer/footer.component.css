@@ -1,0 +1,31 @@
+footer{
+    background-color: var(--container-color);
+    padding: 10px;
+
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+
+footer a{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+    padding: 5px;
+    width: fit-content;
+    
+    color: var(--font-color);
+    
+    border: var(--border-style);
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+footer a img{
+    height: 24px;
+    width: 24px;
+    filter: var(--svg-filter-white);
+}

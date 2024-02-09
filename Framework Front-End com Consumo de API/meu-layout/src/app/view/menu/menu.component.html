@@ -1,0 +1,34 @@
+<mat-toolbar>
+    
+    <a routerLink="/">
+        <img src="../../../assets/img/logo.png" alt="">
+    </a>
+    <span class="example-spacer"></span>
+
+    <div class="left-side">
+        <button [cdkMenuTriggerFor]="menu" class="example-standalone-trigger">
+            <mat-icon>menu</mat-icon>
+            <span>CATEGORIAS </span>
+        </button>
+    
+        <ng-template #menu>
+            <div class="example-menu" cdkMenu>
+                <button class="example-menu-item" cdkMenuItem>JOGOS</button>
+                <button class="example-menu-item" cdkMenuItem>HEADPHONES</button>
+                <button class="example-menu-item" cdkMenuItem>COMPUTADORES</button>
+            </div>
+        </ng-template>
+    
+        <form class="d-flex input-search" role="search">
+            <input class="form-control me-2"placeholder="Pesquisar" aria-label="Pesquisar">
+            <button class="btn btn-outline-success" type="submit">
+                <mat-icon>search</mat-icon>
+            </button>
+        </form>
+    
+        <a routerLink="/login" class="login">
+            <mat-icon>account_circle</mat-icon>
+        </a>
+
+    </div>
+</mat-toolbar>

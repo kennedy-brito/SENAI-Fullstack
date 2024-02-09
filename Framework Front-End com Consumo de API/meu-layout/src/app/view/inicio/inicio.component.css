@@ -1,0 +1,120 @@
+.container-carousel{
+    background-color: var(--container-color);
+    color: var(--font-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 20px 0 20px 0;
+    width: auto;
+    min-height: 80vh;
+}
+.add {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--font-color);
+    
+
+}
+
+.add img{
+    margin: 8px 0 8px 0;
+    width: 70vw;
+    height: 80vh;
+
+}
+
+.carousel-inner .carousel-item {
+    opacity: 0;
+    transition: none;
+    transform: translate3d(0,0,0) !important;
+}
+
+.carousel-inner .active {
+    transition: opacity 2300ms linear;
+    opacity: 1;
+}
+
+
+.container-carousel button{
+    position: relative;
+}
+
+.products {
+    color: var(--font-color);
+    margin: 5px 0 10px 0;
+}
+
+.products h3{
+    background-color: var(--container-color);
+    padding: 15px;
+    width: fit-content;
+}
+
+
+#scroll-cards{
+    display: flex;
+    gap: 20px;
+    background-color: var(--container-color);
+    overflow-x: scroll;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+.scroll-control{
+    background-color: transparent;
+    color: var(--font-color);
+    position: sticky;
+    
+    height: fit-content;
+    align-self: center;
+    border-radius: 50px;
+    border: none;
+    
+    z-index: 2;
+}
+.scroll-control:hover{
+    background-color: var(--font-color);
+    color: black;
+
+}
+
+.left {left: 5px;}
+.right {right: 5px;}
+
+#scroll-cards::-webkit-scrollbar{
+    display: none;
+}
+
+.example-card {
+    max-width: 400px;
+}
+
+mat-card{
+    border: var(--border-style);
+    background-color: var(--container-color);
+    width: 303px;
+}
+
+mat-card-actions button{
+
+    background-color: #0D6EFD;
+    color: var(--font-color);
+}
+mat-card img{
+
+    background-size: auto;
+
+    width: 300px;
+    height: 350px;
+}
+
+mat-card-content {
+    padding: 10px;
+}
+mat-card-content h4{
+    font-size: 21px;
+}
