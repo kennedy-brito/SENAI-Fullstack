@@ -1,7 +1,9 @@
 import { Injectable } from '@angular/core';
 import { Cliente } from './models/Cliente.models';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { EMPTY, Observable } from 'rxjs';
+import { MatSnackBar } from '@angular/material/snack-bar';
+import { map, catchError } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
@@ -15,7 +17,7 @@ export class ClienteService {
 
   url: string = "http://localhost:3000/clientes";
 
-  constructor(private _httpClient:HttpClient) { }
+  constructor(private _httpClient:HttpClient, private _snackBar:MatSnackBar) { }
 
   getClientes(): Observable<Cliente[]>{
     return this._httpClient.get<Cliente[]>(this.url);
@@ -38,5 +40,28 @@ export class ClienteService {
   excluirCliente(id:any):Observable<Cliente[]>{
     const urlExcluir = `${this.url}/${id}`
     return this._httpClient.delete<Cliente[]>(urlExcluir);
+  }
+
+  // O showMessage aparecerá como modal quando um conjunto de dados
+  // do seu projeto for inserido, atualizado ou excluído.
+  showMessage(msg: string, isError:boolean = false):void{
+    this._snackBar.open(msg, 'X', {
+      duration: 600,
+      verticalPosition: "top",
+      panelClass: isError ? ['errorMsg'] : ['successMsg']
+    })
+  }
+
+  create(cliente:Cliente): Observable<Cliente[]>{
+    return this._httpClient.post<Cliente[]>(this.url, cliente).pipe(
+      map((obj) => obj),
+      catchError(e => this.errorMsg(e))
+    )
+  }
+
+  errorMsg(e:any): Observable<Cliente[]>{
+    console.log(e)
+    this.showMessage('Erro', true)
+    return EMPTY;
   }
 }
