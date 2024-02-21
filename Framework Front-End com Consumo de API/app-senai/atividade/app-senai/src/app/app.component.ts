@@ -7,6 +7,7 @@ import RodapeComponent from './rodape/rodape.component';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { LoginService } from './services/login.service';
 import { BehaviorSubject } from 'rxjs';
+import { LocalstorageService } from './LocalStorage/LocalStorage';
 
 @Component({
   selector: 'app-root',
@@ -33,6 +34,7 @@ export class AppComponent {
   constructor(
     private _loginService: LoginService
     , @Inject(PLATFORM_ID) private platformId:any //tipo da plataforma
+    , private _localStorageService: LocalstorageService
     ){
       AppComponent.isBrowser.next(isPlatformBrowser(this.platformId))
     }
@@ -42,7 +44,7 @@ export class AppComponent {
     })
   }
   ngOnDestroy() {
-    sessionStorage.clear();
+    this._localStorageService.clear();
   } 
   
 }

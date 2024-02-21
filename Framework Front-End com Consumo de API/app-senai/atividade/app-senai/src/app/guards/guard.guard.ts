@@ -1,22 +1,17 @@
-import { ActivatedRouteSnapshot, CanActivate, Router, RouterStateSnapshot, UrlTree } from '@angular/router';
-import { Observable } from 'rxjs';
+import { CanActivateFn, Router} from '@angular/router';
 
-export class GuardGuard implements CanActivate {
-  constructor(private router: Router){}
-  canActivate(
-    route: ActivatedRouteSnapshot, 
-    state: RouterStateSnapshot)
-    : Observable<boolean 
-    | UrlTree> 
-    | Promise<boolean | UrlTree> 
-    | boolean 
-    | UrlTree 
-    {
-      if(sessionStorage.getItem('token') !== null) {
-        return true;
-      }
-      this.router.navigate(['/login'])
-      return false;
-    }
-}
+import { LocalstorageService } from '../LocalStorage/LocalStorage';
+
+export const guardGuard: CanActivateFn = (route, state) => {
+
+  const _localStorageService = new LocalstorageService;
+  const router = new Router;
+  
+  if(_localStorageService.getItem('token') !== null) {
+    return true;
+  }
+  router.navigate(['/login'])
+  return false;
+};
+
   

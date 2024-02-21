@@ -27,6 +27,13 @@
       "descricao": "Descrição do jogo 1",
       "foto": "jogo2.PNG",
       "preco": 400
+    },
+    {
+      "id": 0,
+      "produto": "Jogo 1 sss",
+      "descricao": "alskfjdsa",
+      "foto": "jogo2.PNG",
+      "preco": 1233
     }
   ]
 }

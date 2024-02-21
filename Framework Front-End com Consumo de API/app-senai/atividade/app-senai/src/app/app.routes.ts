@@ -5,7 +5,7 @@ import { RestritoComponent } from './restrito/restrito.component';
 import { CadastroProdutoComponent } from './restrito/cadastro-produto/cadastro-produto.component';
 import { ListaProdutoComponent } from './restrito/lista-produto/lista-produto.component';
 import { AtualizaProdutoComponent } from './restrito/atualiza-produto/atualiza-produto.component';
-import { GuardGuard } from './guards/guard.guard';
+import { guardGuard } from './guards/guard.guard';
 
 export const routes: Routes = [
     {
@@ -17,22 +17,22 @@ export const routes: Routes = [
     {
         path:'restrito', 
         component: RestritoComponent,
-        canActivate: [GuardGuard],
+        canActivate: [guardGuard],
         children:[
             {
                 path: 'cadastro', 
                 component: CadastroProdutoComponent,
-                canActivate: [GuardGuard]
+                canActivate: [guardGuard]
             },
             {
                 path: 'lista', 
                 component: ListaProdutoComponent,
-                canActivate: [GuardGuard]
+                canActivate: [guardGuard]
             },
             {
                 path:'editar/:id', 
                 component: AtualizaProdutoComponent,
-                canActivate: [GuardGuard]
+                canActivate: [guardGuard]
             },
             {
                 path:'', redirectTo: 'lista', pathMatch: 'full'
