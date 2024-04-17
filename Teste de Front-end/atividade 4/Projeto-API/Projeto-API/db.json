@@ -1,0 +1,49 @@
+{
+  "clientes": [
+    {
+      "id": "2",
+      "nome": "Maria",
+      "endereco": "Rua X"
+    },
+    {
+      "id": "3",
+      "nome": "Editado 3",
+      "endereco": "Editado 3"
+    },
+    {
+      "id": 0,
+      "nome": "Cliente Teste",
+      "endereco": "Endereço Teste"
+    },
+    {
+      "id": 0,
+      "nome": "Cliente Teste",
+      "endereco": "Endereço Teste"
+    },
+    {
+      "id": 0,
+      "nome": "Cliente Teste",
+      "endereco": "Endereço Teste"
+    },
+    {
+      "id": 0,
+      "nome": "Cliente Teste",
+      "endereco": ""
+    },
+    {
+      "id": 0,
+      "nome": "Cadastro de Cliente",
+      "endereco": "Cliente Teste"
+    },
+    {
+      "id": 0,
+      "nome": "Cadastro de Cliente",
+      "endereco": "Cliente Teste"
+    },
+    {
+      "id": 0,
+      "nome": "Cadastro de Cliente",
+      "endereco": "Cliente Teste"
+    }
+  ]
+}
