@@ -1,0 +1,15 @@
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\dotnetPractice\depuringExercise\bin\Debug\net8.0\depuringExercise.exe
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\dotnetPractice\depuringExercise\bin\Debug\net8.0\depuringExercise.deps.json
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\dotnetPractice\depuringExercise\bin\Debug\net8.0\depuringExercise.runtimeconfig.json
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\dotnetPractice\depuringExercise\bin\Debug\net8.0\depuringExercise.dll
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\dotnetPractice\depuringExercise\bin\Debug\net8.0\depuringExercise.pdb
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\dotnetPractice\depuringExercise\obj\Debug\net8.0\depuringExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\dotnetPractice\depuringExercise\obj\Debug\net8.0\depuringExercise.AssemblyInfoInputs.cache
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\dotnetPractice\depuringExercise\obj\Debug\net8.0\depuringExercise.AssemblyInfo.cs
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\dotnetPractice\depuringExercise\obj\Debug\net8.0\depuringExercise.csproj.CoreCompileInputs.cache
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\dotnetPractice\depuringExercise\obj\Debug\net8.0\depuringExercise.sourcelink.json
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\dotnetPractice\depuringExercise\obj\Debug\net8.0\depuringExercise.dll
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\dotnetPractice\depuringExercise\obj\Debug\net8.0\refint\depuringExercise.dll
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\dotnetPractice\depuringExercise\obj\Debug\net8.0\depuringExercise.pdb
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\dotnetPractice\depuringExercise\obj\Debug\net8.0\depuringExercise.genruntimeconfig.cache
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\dotnetPractice\depuringExercise\obj\Debug\net8.0\ref\depuringExercise.dll
