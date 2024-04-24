@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "XJlXgcsZFYt3r24XA5hlx1f5hr46AXKKt2ByAbxT2w8=",
+  "Source": "ProjetoWeb",
+  "BasePath": "_content/ProjetoWeb",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ProjetoWeb\\wwwroot",
+      "Source": "ProjetoWeb",
+      "ContentRoot": "C:\\Users\\willi\\source\\repos\\SENAI-Fullstack\\Programação Back-end\\ProjetoWeb\\wwwroot\\",
+      "BasePath": "_content/ProjetoWeb",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\willi\\source\\repos\\SENAI-Fullstack\\Programação Back-end\\ProjetoWeb\\wwwroot\\produtos.html",
+      "SourceId": "ProjetoWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\willi\\source\\repos\\SENAI-Fullstack\\Programação Back-end\\ProjetoWeb\\wwwroot\\",
+      "BasePath": "_content/ProjetoWeb",
+      "RelativePath": "produtos.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\produtos.html"
+    }
+  ]
+}
