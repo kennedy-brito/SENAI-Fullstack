@@ -1,0 +1,15 @@
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\ProjetoLista\bin\Debug\net8.0\ProjetoLista.exe
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\ProjetoLista\bin\Debug\net8.0\ProjetoLista.deps.json
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\ProjetoLista\bin\Debug\net8.0\ProjetoLista.runtimeconfig.json
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\ProjetoLista\bin\Debug\net8.0\ProjetoLista.dll
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\ProjetoLista\bin\Debug\net8.0\ProjetoLista.pdb
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\ProjetoLista\obj\Debug\net8.0\ProjetoLista.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\ProjetoLista\obj\Debug\net8.0\ProjetoLista.AssemblyInfoInputs.cache
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\ProjetoLista\obj\Debug\net8.0\ProjetoLista.AssemblyInfo.cs
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\ProjetoLista\obj\Debug\net8.0\ProjetoLista.csproj.CoreCompileInputs.cache
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\ProjetoLista\obj\Debug\net8.0\ProjetoLista.sourcelink.json
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\ProjetoLista\obj\Debug\net8.0\ProjetoLista.dll
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\ProjetoLista\obj\Debug\net8.0\refint\ProjetoLista.dll
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\ProjetoLista\obj\Debug\net8.0\ProjetoLista.pdb
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\ProjetoLista\obj\Debug\net8.0\ProjetoLista.genruntimeconfig.cache
+C:\Users\willi\source\repos\SENAI-Fullstack\Programação Back-end\ProjetoLista\obj\Debug\net8.0\ref\ProjetoLista.dll
